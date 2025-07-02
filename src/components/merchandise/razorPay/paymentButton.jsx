@@ -9,7 +9,9 @@ const RazorpayButton = () => {
             script.async = true;
 
             const form = document.getElementById('razorpay-form');
+            if(form){
             form.appendChild(script);
+            }
         }
     }, []);
 

@@ -87,11 +87,11 @@
         font-size: 2rem;
     }
 
-    .merchOptions p:nth-child(1){
+    /* .merchOptions p:nth-child(1){
         /* totalammount */
         /* border: 1px solid #000; */
         /* font-size: 0.8rem !important; */
-    }
+    /* } */
 
 
     .merchImg{

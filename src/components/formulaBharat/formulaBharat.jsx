@@ -92,10 +92,10 @@ function App() {
             <Description />
           </div>
 
-          <Phases events={phases} img="\picsfb\fbcar.png" />
+          <Phases events={phases} /> 
 
           <h1 className='font-albulaHeavy text-amber-900 text-7xl   flex justify-center items-center pb-28 pt-36'>OUR CAR</h1>
-          <Ourcar events={events} img="\picsfb\formulacar.PNG" />
+          <Ourcar events={events}  />
 
           <div className="FB_Team">
             <Team  />
