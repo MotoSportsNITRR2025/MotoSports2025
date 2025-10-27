@@ -4,7 +4,6 @@ import { faLinkedin } from '@fortawesome/free-brands-svg-icons/faLinkedin';
 import './memberCard.css'
 
 function FacultyCard(data) {
-    console.log(data);
 
     return (
         <>

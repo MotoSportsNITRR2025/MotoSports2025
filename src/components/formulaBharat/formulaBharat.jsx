@@ -95,7 +95,9 @@ function App() {
           <Phases events={phases} /> 
 
           <h1 className='font-albulaHeavy text-amber-900 text-7xl   flex justify-center items-center pb-28 pt-36'>OUR CAR</h1>
-          <Ourcar events={events}  />
+          <div style={{ background: "linear-gradient(180deg,#ffffff 0%,#7c5238 10%, #efc65e 90%, #ffffff 100%)" }}>
+            <Ourcar />
+          </div>
 
           <div className="FB_Team">
             <Team  />

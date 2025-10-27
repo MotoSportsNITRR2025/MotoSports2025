@@ -1,7 +1,6 @@
 import Timeline from "../timeline/timeline";
 
 function Phases(...data) {
-    console.log(data[0]);
     
     return (
         <div className="phases flex">

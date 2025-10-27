@@ -3,8 +3,6 @@ import './domain.css'
 
 function Faculty(d) {
     const data = d.data;
-    // const d = data.domainHead;
-    console.log(data.domainHead);
 
     return (
         <>
