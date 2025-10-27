@@ -7,8 +7,7 @@ import '@google/model-viewer';
 
 function Ourcar() {
   return (
-    <div className=" flex justify-center items-center w-full"
-    style={{ background: "linear-gradient(180deg,#ffffff 0%,#7c5238 10%, #efc65e 90%, #ffffff 100%)" }}>
+    <div className=" flex justify-center items-center w-full">
       <model-viewer
         src="/assets/3d-model/buggy_arena.glb"
         alt="fb_car-3d-model"
