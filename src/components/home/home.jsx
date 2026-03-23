@@ -30,12 +30,38 @@ import Img_14 from '/assets/images/carImages/carImg_15.jpg';
 import Img_15 from '/assets/images/carImages/carImg_16.jpg';
 import Img_16 from '/assets/images/carImages/carImg_17.jpg';
 import Img_17 from '/assets/images/carImages/carImg_18.jpg';
+import popupIMG from './popupImg.png';
 
 const images = [Img_1, Img_2, Img_3, Img_4, Img_5, Img_6, Img_10, Img_11, Img_13, Img_15, Img_16, Img_17];
 
 function Home() {
+    const [showProblemPopup, setShowProblemPopup] = React.useState(true);
+
     return (
         <>
+            {showProblemPopup && (
+                <div className='fixed inset-0 z-[70] bg-black/55 flex items-center justify-center px-4'>
+                    <div className='relative w-full max-w-2xl'>
+                        <button
+                            type='button'
+                            aria-label='Close problem statement banner'
+                            onClick={() => setShowProblemPopup(false)}
+                            className='absolute -top-3 -right-3 z-10 w-10 h-10 rounded-full bg-dustyWhite text-blackbean text-2xl leading-none shadow-md'
+                        >
+                            ×
+                        </button>
+
+                        <a href='/problemStatements' className='block'>
+                            <img
+                                src={popupIMG}
+                                alt='Open Problem Statement Page'
+                                className='w-full rounded-2xl border-4 border-sealbrown bg-dustyWhite shadow-xl cursor-pointer'
+                            />
+                        </a>
+                    </div>
+                </div>
+            )}
+
             <main className='flex flex-col justify-between items-center bg-modestBrown'>
                 <div id='introDiv' className="w-85vw flex flex-col justify-between items-center lg:flex-row lg:justify-evenly lg:items-center box-border lg:top-32">
                     <div id='introTextDiv' className='flex flex-col justify-evenly items-center sm:px-6 sm:py-2 w-full sm:w-550px md:w-full lg:w-400px 1.5lg:px-6 1.5lg:py-6 1.5lg:w-475px xl:w-625px 2xl:w-700px h-500'>
