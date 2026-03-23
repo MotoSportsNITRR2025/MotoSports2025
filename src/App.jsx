@@ -8,6 +8,7 @@ import FormulaBharat from './components/formulaBharat/formulaBharat';
 import Contact from './components/contact/contact';
 import Footer from './components/footer/footer';
 import Merchandise from './components/merchandise/merchandise';
+import Problems from './components/problemStatement/problems';
 
 function App() {
 	return (
@@ -21,6 +22,8 @@ function App() {
 					<Route path="/merchandise" element={<Merchandise />} />
 					<Route path="/about" element={<About />} />
 					<Route path="/contact" element={<Contact />} />
+					{/* <Route path="/problems" element={<Problems />} /> */}
+					<Route path="/problemStatements" element={<Problems />} />
 				</Routes>
 			</Router>
 			<Footer />
