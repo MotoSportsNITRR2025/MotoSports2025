@@ -17,6 +17,10 @@ const links=["https://drive.google.com/file/d/1UtNuzAtDF_XGAKmX3yHNjAdg2x2BKpqM/
     "https://drive.google.com/file/d/1aXLQglTSIbkSxBZz8_AZfqms3-lnPhQy/view?usp=sharing"
 ]
 
+const icons=["speed","bolt","settings","build","control_camera","tune"]
+
+const titles=["| PT-CV","| PT-EV","| BRAKES","| FRAMES","| STEERING","| SUSPENSION"]
+
 function ProblemStatements() {
   return (
     <>
@@ -24,12 +28,12 @@ function ProblemStatements() {
     
 
     <div className='w-full max-w-7xl grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 sm:gap-4'>
-            <DomainBlock domain="Powertrain CV" description={descriptions[0]} link={links[0]} />
-            <DomainBlock domain="Powertrain EV" description={descriptions[1]} link={links[1]} />
-            <DomainBlock domain="Brakes" description={descriptions[2]} link={links[2]} />
-            <DomainBlock domain="Frames" description={descriptions[3]} link={links[3]} />
-            <DomainBlock domain="Steering" description={descriptions[4]} link={links[4]} />
-            <DomainBlock domain="Suspension" description={descriptions[5]} link={links[5]} />
+            <DomainBlock domain="Powertrain CV" description={descriptions[0]} link={links[0]} icon={icons[0]} title={titles[0]} />
+            <DomainBlock domain="Powertrain EV" description={descriptions[1]} link={links[1]} icon={icons[1]} title={titles[1]} />
+            <DomainBlock domain="Brakes" description={descriptions[2]} link={links[2]} icon={icons[2]} title={titles[2]} />
+            <DomainBlock domain="Frames" description={descriptions[3]} link={links[3]} icon={icons[3]} title={titles[3]} />
+            <DomainBlock domain="Steering" description={descriptions[4]} link={links[4]} icon={icons[4]} title={titles[4]} />
+            <DomainBlock domain="Suspension" description={descriptions[5]} link={links[5]} icon={icons[5]} title={titles[5]} />
         </div>
         <div className="w-full max-w-7xl mx-auto my-6 text-center">
   
