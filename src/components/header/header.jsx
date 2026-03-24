@@ -93,6 +93,9 @@ function Navbar() {
                                         <a href="/contact" className="flex justify-center items-center h-10 px-2 py-2 border-3 border-transparent rounded-md hover:text-tawny hover:border-tawny transition-colors duration-450">
                                             <li className="cursor-pointer font-poppins font-medium font-2 text-base">Contact</li>
                                         </a>
+                                        <a href="/problemStatements" className="flex justify-center items-center h-10 px-2 py-2 border-3 border-transparent rounded-md hover:text-tawny hover:border-tawny transition-colors duration-450">
+                                            <li className="cursor-pointer font-poppins font-medium font-2 text-base">Problem Statements</li>
+                                        </a>
 
                                         <button className="popup-close mt-4 px-4 py-2 bg-gray-800 text-white rounded-md" onClick={togglePopup}>Close</button>
                                     </ul>
