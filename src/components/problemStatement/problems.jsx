@@ -5,9 +5,9 @@ const descriptions=[
   "Dive into the mechanics of combustion engines and build systems that deliver raw power and performance.",
   "Shape the future of mobility by designing efficient, high-performance electric drivetrains.",
   "Engineer precision braking systems that ensure safety, control, and confidence at every speed.",
-  "Design systems that absorb shocks, maximize grip, and keep the vehicle stable on any terrain.",
+  "Construct strong and lightweight chassis structures that form the foundation of the entire vehicle.",
   "Create responsive steering systems that translate driver intent into perfect control on the track.",
-  "Construct strong and lightweight chassis structures that form the foundation of the entire vehicle."
+  "Design systems that absorb shocks, maximize grip, and keep the vehicle stable on any terrain."
 ]
 const links=["https://drive.google.com/file/d/1UtNuzAtDF_XGAKmX3yHNjAdg2x2BKpqM/view?usp=sharing",
     "https://drive.google.com/file/d/1B0OkZ0Fdtf-vpZ0K7k48EZhKvT2xipZC/view?usp=sharing",
