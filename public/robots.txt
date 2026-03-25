@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://motosports-nitrr.vercel.app/sitemap.xml
+Sitemap: https://moto-sports2025.vercel.app/sitemap.xml
