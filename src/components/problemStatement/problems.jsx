@@ -35,22 +35,7 @@ function ProblemStatements() {
             <DomainBlock domain="Steering" description={descriptions[4]} link={links[4]} icon={icons[4]} title={titles[4]} />
             <DomainBlock domain="Suspension" description={descriptions[5]} link={links[5]} icon={icons[5]} title={titles[5]} />
         </div>
-        {/* <div className="w-full max-w-7xl mx-auto my-6 text-center">
-          <div className="h-[2px] bg-gradient-to-r from-transparent via-[#621b00] to-transparent"></div>
-          <div className="group relative px-8 py-4 cursor-pointer">
-          <p className="py-4 text-lg font-semibold tracking-wide text-[#621b00] 
-                        transition-all duration-300 
-                        group-hover:tracking-widest group-hover:text-[#c75000]"
-                        onClick={() => window.open('https://forms.gle/9sz7pUGvK7A1NLiN6', '_blank')}>
-            Submit Here →
-          </p>
-          <div className="absolute inset-0 -z-10 opacity-0 
-                          bg-[#fff1de] blur-md 
-                          transition-all duration-300 
-                          group-hover:opacity-100"></div>
-          </div>
-          <div className="h-[2px] bg-gradient-to-r from-transparent via-[#621b00] to-transparent"></div>
-        </div> */}
+        
         <div
           class="mt-10 sm:mt-14 lg:mt-20 w-full max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6 sm:gap-8 lg:gap-12 p-6 sm:p-8 lg:p-12 bg-on-surface text-surface relative overflow-hidden bg-[#181919] text-[#faf9f8]"
         >
@@ -75,7 +60,7 @@ function ProblemStatements() {
           <div class="w-full md:w-auto flex flex-col gap-3 sm:gap-4 md:gap-5">
             <button
             class="relative z-10 custom-gradient-btn w-full sm:w-auto px-6 sm:px-8 lg:px-10 py-4 sm:py-5 lg:py-6 text-on-primary font-headline font-black uppercase tracking-tighter text-base sm:text-lg lg:text-xl scale-100 hover:scale-105 transition-all active:scale-95 whitespace-nowrap bg-[#9e491b]"
-          onClick={() => window.open('https://forms.gle/EpXeeJGkKsK7oZWdA', '_blank')}>
+          onClick={() => window.open('https://docs.google.com/forms/d/e/1FAIpQLSeBEEKJgEPjNllB02AuakxTrmac0thLxXgpw1GTh3DkijY4uw/viewform', '_blank')}>
             Submit Tech Entry →
           </button>
           <button
